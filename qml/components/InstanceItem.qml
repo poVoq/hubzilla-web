@@ -9,7 +9,7 @@ ListItem {
     property var text: ""
     property var country : ""
     property var version: ""
-    property var iconSource: "../../assets/pixelfed_logo.svg"
+    property var iconSource: "../../assets/hubzilla_logo.svg"
 	property var status: 0
 	property var users: 0
 	property var rating: 0
@@ -19,7 +19,7 @@ ListItem {
     onClicked: {
         appSettings.instance = text
 		mainStack.clear();
-        mainStack.push (Qt.resolvedUrl("../pages/PixelFedWebview.qml"))
+        mainStack.push (Qt.resolvedUrl("../pages/HubzillaWebview.qml"))
     }
 
     ListItemLayout {
