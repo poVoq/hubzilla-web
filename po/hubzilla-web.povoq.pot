@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pixelfed-web.darkeye\n"
+"Project-Id-Version: hubzilla-web.povoq\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 08:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../qml/pages/InstancePicker.qml:96
-msgid "Choose a PixelFed instance"
+msgid "Choose a Hubzilla instance"
 msgstr ""
 
 #: ../qml/pages/InstancePicker.qml:104
@@ -28,11 +28,11 @@ msgid "Info"
 msgstr ""
 
 #: ../qml/pages/InstancePicker.qml:133
-msgid "Only show nodes that allow registration"
+msgid "Only show hubs that allow registration"
 msgstr ""
 
 #: ../qml/pages/InstancePicker.qml:151
-msgid "Error loading instances nodes"
+msgid "Error loading instances hubs"
 msgstr ""
 
 #: ../qml/pages/InstancePicker.qml:162
@@ -80,7 +80,7 @@ msgid "Telegram"
 msgstr ""
 
 #: ../qml/pages/Information.qml:53
-msgid "uPixelFed WebApp"
+msgid "uHubzilla WebApp"
 msgstr ""
 
 #: ../qml/pages/LoadingPage.qml:53
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../qml/components/BottomEdgeControlsHeader.qml:101
 #: ../qml/components/build/tmp/BottomEdgeControlsHeader.qml:101
-msgid "Change Node"
+msgid "Change Hub"
 msgstr ""
 
 #: ../qml/components/dialogs/PromptDialog.qml:25
@@ -158,5 +158,5 @@ msgid "Confirm Action"
 msgstr ""
 
 #: pixelfed-web.desktop.in.h:1
-msgid "uPixelFed"
+msgid "uHubzilla"
 msgstr ""
