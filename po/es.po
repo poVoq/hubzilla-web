@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pixelfed-web.darkeye\n"
+"Project-Id-Version: hubzilla-web.povoq\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-30 14:31+0000\n"
 "PO-Revision-Date: 2019-06-30 20:46+0200\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Language: es\n"
 
 #: ../qml/pages/InstancePicker.qml:75
-msgid "Choose a PixelFed instance"
-msgstr "Elija una instancia de PixelFed"
+msgid "Choose a Hubzilla instance"
+msgstr "Elija una instancia de Hubzilla"
 
 #: ../qml/pages/InstancePicker.qml:83
 #: ../qml/components/BottomEdgeControlsHeader.qml:62
@@ -75,10 +75,10 @@ msgid "Telegram"
 msgstr "Telegram"
 
 #: ../qml/pages/Information.qml:53
-msgid "PixelFed WebApp"
-msgstr "Aplicación web PixelFed"
+msgid "Hubzilla WebApp"
+msgstr "Aplicación web Hubzilla"
 
-#: ../qml/pages/PixelFedWebview.qml:75
+#: ../qml/pages/HubzillaWebview.qml:75
 msgid "Loading "
 msgstr "Cargando "
 
@@ -148,5 +148,5 @@ msgid "Confirm Action"
 msgstr "Confirmar acción"
 
 #: pixelfed-web.desktop.in.h:1
-msgid "PixelFed"
-msgstr "PixelFed"
+msgid "Hubzilla"
+msgstr "Hubzilla"
