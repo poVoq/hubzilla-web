@@ -28,11 +28,11 @@ msgid "Info"
 msgstr ""
 
 #: ../qml/pages/InstancePicker.qml:133
-msgid "Only show hubs that allow registration"
+msgid "Only show nodes that allow registration"
 msgstr ""
 
 #: ../qml/pages/InstancePicker.qml:151
-msgid "Error loading instances hubs"
+msgid "Error loading instances nodes"
 msgstr ""
 
 #: ../qml/pages/InstancePicker.qml:162
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../qml/components/BottomEdgeControlsHeader.qml:101
 #: ../qml/components/build/tmp/BottomEdgeControlsHeader.qml:101
-msgid "Change Hub"
+msgid "Change Node"
 msgstr ""
 
 #: ../qml/components/dialogs/PromptDialog.qml:25
