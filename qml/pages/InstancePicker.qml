@@ -26,7 +26,7 @@ Page {
 		url:"https://the-federation.info/graphql"
 		getData: {
 			"operationName" : "Platform",
-			"variables" : '{"name":"pixelfed"}',
+			"variables" : '{"name":"hubzilla"}',
 			"query" : "query Platform($name: String!) {  platforms(name: $name) {    name    code    displayName    description    tagline    website    icon    __typename  }  nodes(platform: $name) {    id    name    version    openSignups    host    platform {      name      icon      __typename    }    countryCode    countryFlag    countryName    services {      name      __typename    }    __typename  }  statsGlobalToday(platform: $name) {    usersTotal    usersHalfYear    usersMonthly    localPosts    localComments    __typename  }  statsNodes(platform: $name) {    node {      id      __typename    }    usersTotal    usersHalfYear    usersMonthly    localPosts    localComments    __typename  }}"
 		}
 
@@ -72,10 +72,10 @@ Page {
     function search ()  {
 
 		var searchTerm = customInstanceInput.displayText;
-		//If  the  search starts with http(s) then go to the url 
-		if(searchTerm.indexOf("http") == 0 ) {
+		//If  the  search starts with https then go to the url 
+		if(searchTerm.indexOf("https") == 0 ) {
 			appSettings.instance = searchTerm
-			mainStack.push (Qt.resolvedUrl("./PixelFedWebview.qml"))
+			mainStack.push (Qt.resolvedUrl("./HubzillaWebview.qml"))
 			return
 		}
 	
@@ -93,7 +93,7 @@ Page {
 
     header: PageHeader {
         id: header
-        title: i18n.tr('Choose a PixelFed instance')
+        title: i18n.tr('Choose a Hubzilla instance')
         StyleHints {
             foregroundColor: theme.palette.normal.backgroundText
             backgroundColor: theme.palette.normal.background
