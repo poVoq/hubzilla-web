@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: pixelfed-web.darkeye\n"
+"Project-Id-Version: hubzilla-web.povoq\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 08:42+0000\n"
 "PO-Revision-Date: 2019-08-04 20:41+0200\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../qml/pages/InstancePicker.qml:96
-msgid "Choose a PixelFed instance"
-msgstr "Choisissez une instance PixelFed"
+msgid "Choose a Hubzilla instance"
+msgstr "Choisissez une instance Hubzilla"
 
 #: ../qml/pages/InstancePicker.qml:104
 #: ../qml/components/BottomEdgeControlsHeader.qml:74
@@ -79,8 +79,8 @@ msgid "Telegram"
 msgstr "Telegram"
 
 #: ../qml/pages/Information.qml:53
-msgid "uPixelFed WebApp"
-msgstr "WebApp uPixelFed"
+msgid "uHubzilla WebApp"
+msgstr "WebApp uHubzilla"
 
 #: ../qml/pages/LoadingPage.qml:53
 msgid "Loading "
@@ -156,9 +156,9 @@ msgstr "Action rapide"
 msgid "Confirm Action"
 msgstr "Confirmer l'action"
 
-#: pixelfed-web.desktop.in.h:1
-msgid "uPixelFed"
-msgstr "uPixelFed"
+#: hubzilla-web.desktop.in.h:1
+msgid "uHubzilla"
+msgstr "uHubzilla"
 
 #~ msgid "Uptime: %1%"
 #~ msgstr "Disponibilité : %1%"
