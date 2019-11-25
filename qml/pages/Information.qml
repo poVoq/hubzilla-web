@@ -15,10 +15,10 @@ Page {
 
 	Component.onCompleted: {
 		infoModel.append({ name: i18n.tr("Based on uMastonauts webapp"), url: "https://github.com/ChristianPauly/uMastodon" ,icon:"info"})
-		infoModel.append({ name: i18n.tr("Get the source"), url: "https://github.com/dark-eye/pixelfed-web" ,icon:"text-css-symbolic"})
-		infoModel.append({ name: i18n.tr("Report issues"), url: "https://github.com/dark-eye/pixelfed-web/issues",icon:"dialog-warning-symbolic" })
-		infoModel.append({ name: i18n.tr("GNU General Public License v3.0"), url: "https://github.com/dark-eye/pixelfed-web/blob/master/LICENSE",icon:"note" })
-		infoModel.append({ name: i18n.tr("Contributors"), url: "https://github.com/dark-eye/pixelfed-web/graphs/contributors" ,icon:"contact-group"})
+		infoModel.append({ name: i18n.tr("Get the source"), url: "https://github.com/povoq/hubzilla-web" ,icon:"text-css-symbolic"})
+		infoModel.append({ name: i18n.tr("Report issues"), url: "https://github.com/povoq/hubzilla-web/issues",icon:"dialog-warning-symbolic" })
+		infoModel.append({ name: i18n.tr("GNU General Public License v3.0"), url: "https://github.com/povoq/hubzilla-web/blob/master/LICENSE",icon:"note" })
+		infoModel.append({ name: i18n.tr("Contributors"), url: "https://github.com/povoq/hubzilla-web/graphs/contributors" ,icon:"contact-group"})
 		infoModel.append({ name: i18n.tr("Donate"), url: "https://liberapay.com/darkeye/", icon:"like" })
 		infoModel.append({ name: i18n.tr("Telegram"), url: "https://t.me/upixelfedwebapp", icon:"send" })
 	}
@@ -50,7 +50,7 @@ Page {
 			font.bold: true
 			color: theme.palette.normal.backgroundText
 			horizontalAlignment: Text.AlignHCenter
-			text: i18n.tr("uPixelFed WebApp")
+			text: i18n.tr("uHubzilla WebApp")
 		}
 
 	}
