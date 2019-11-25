@@ -9,7 +9,7 @@ import "pages"
 MainView {
     id: root
     objectName: 'mainView'
-    applicationName: 'pixelfed-web.darkeye'
+    applicationName: 'hubzilla-web.povoq'
     automaticOrientation: true
 
     width: units.gu(45)
@@ -44,7 +44,7 @@ MainView {
 
     Component.onCompleted: {
         if ( appSettings.instance ) {
-           mainStack.push(Qt.resolvedUrl("./pages/PixelFedWebview.qml"))
+           mainStack.push(Qt.resolvedUrl("./pages/HubzillaWebview.qml"))
         }
         else {
             mainStack.push(Qt.resolvedUrl("./pages/InstancePicker.qml"))
