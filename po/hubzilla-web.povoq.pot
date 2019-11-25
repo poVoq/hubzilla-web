@@ -157,6 +157,6 @@ msgstr ""
 msgid "Confirm Action"
 msgstr ""
 
-#: pixelfed-web.desktop.in.h:1
+#: hubzilla-web.desktop.in.h:1
 msgid "uHubzilla"
 msgstr ""
