@@ -72,8 +72,8 @@ Page {
     function search ()  {
 
 		var searchTerm = customInstanceInput.displayText.toLowerCase();
-		//If  the  search starts with https then go to the url 
-		if(searchTerm.indexOf("https") == 0 ) {
+		//If  the  search starts with http(s) then go to the url 
+		if(searchTerm.indexOf("http") == 0 ) {
 			appSettings.instance = searchTerm
 			mainStack.push (Qt.resolvedUrl("./HubzillaWebview.qml"))
 			return
