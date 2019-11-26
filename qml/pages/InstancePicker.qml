@@ -71,7 +71,7 @@ Page {
 
     function search ()  {
 
-		var searchTerm = customInstanceInput.displayText;
+		var searchTerm = customInstanceInput.displayText.toLowerCase();
 		//If  the  search starts with https then go to the url 
 		if(searchTerm.indexOf("https") == 0 ) {
 			appSettings.instance = searchTerm
