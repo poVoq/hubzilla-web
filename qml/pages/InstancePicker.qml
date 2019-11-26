@@ -160,8 +160,7 @@ Page {
         anchors.topMargin: height
         width: parent.width - height
         placeholderText: i18n.tr("Search or enter a custom address")
-		onDisplayTextChanged: if(displayText.length > 2) {search();}
-        Keys.onReturnPressed: search ()
+        Keys.onReturnPressed: search()
     }
     
     ScrollView {
