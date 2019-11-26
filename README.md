@@ -5,7 +5,7 @@ A simple Hubzilla webapp based on the uPixelfed app (https://github.com/dark-eye
 [![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/hubzilla-web.povoq)
 
 ## Known issues
-- It is difficult to input a custom instance, will try to fix ASAP.
+- None ;)
 
 ## Development
 
