@@ -9,7 +9,7 @@ ListItem {
     property var text: ""
     property var country : ""
     property var version: ""
-    property var iconSource: "../../assets/hubzilla_logo.svg"
+    property var iconSource: "../../assets/hubzilla_logo.png"
 	property var status: 0
 	property var users: 0
 	property var rating: 0
