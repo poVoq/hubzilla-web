@@ -35,7 +35,7 @@ Page {
 			anchors.horizontalCenter: parent.horizontalCenter
 			height: Math.min(_infoPage.width/3, _infoPage.height/3)
 			width:height
-			source:"../../assets/logo.png"
+			source:"../../assets/logo.svg"
 			layer.enabled: true
 			layer.effect: UbuntuShapeOverlay {
 				relativeRadius: 0.5
