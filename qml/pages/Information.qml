@@ -14,13 +14,11 @@ Page {
 	}
 
 	Component.onCompleted: {
-		infoModel.append({ name: i18n.tr("Based on uMastonauts webapp"), url: "https://github.com/ChristianPauly/uMastodon" ,icon:"info"})
+		infoModel.append({ name: i18n.tr("User documentation"), url: "https://zotlabs.org/help/en/member/member_guide" ,icon:"info"})
 		infoModel.append({ name: i18n.tr("Get the source"), url: "https://github.com/povoq/hubzilla-web" ,icon:"text-css-symbolic"})
 		infoModel.append({ name: i18n.tr("Report issues"), url: "https://github.com/povoq/hubzilla-web/issues",icon:"dialog-warning-symbolic" })
 		infoModel.append({ name: i18n.tr("GNU General Public License v3.0"), url: "https://github.com/povoq/hubzilla-web/blob/master/LICENSE",icon:"note" })
 		infoModel.append({ name: i18n.tr("Contributors"), url: "https://github.com/povoq/hubzilla-web/graphs/contributors" ,icon:"contact-group"})
-		infoModel.append({ name: i18n.tr("Donate"), url: "https://liberapay.com/darkeye/", icon:"like" })
-		infoModel.append({ name: i18n.tr("Telegram"), url: "https://t.me/upixelfedwebapp", icon:"send" })
 	}
 
 	Column {
@@ -37,7 +35,7 @@ Page {
 			anchors.horizontalCenter: parent.horizontalCenter
 			height: Math.min(_infoPage.width/3, _infoPage.height/3)
 			width:height
-			source:"../../assets/logo.svg"
+			source:"../../assets/logo.png"
 			layer.enabled: true
 			layer.effect: UbuntuShapeOverlay {
 				relativeRadius: 0.5
