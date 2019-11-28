@@ -1,7 +1,8 @@
 [Desktop Entry]
 _Name=uHubzilla
 Exec=qmlscene qml/Main.qml
-Icon=assets/logo.png
+Icon=assets/logo.svg
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Color=#43488a
