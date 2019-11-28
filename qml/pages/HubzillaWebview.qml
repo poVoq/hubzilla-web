@@ -172,6 +172,16 @@ Page {
 							text:i18n.tr("Notifications")
 							iconName:"notification"
 							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/notifications";
+						},			
+						Action {
+							text:i18n.tr("Connections")
+							iconName:"contact-group"
+							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/connections";
+						},			
+						Action {
+							text:i18n.tr("Calendar")
+							iconName:"calendar"
+							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/cdav/calendar";
 						}
 					]
 				}
