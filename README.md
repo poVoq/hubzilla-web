@@ -7,6 +7,11 @@ A simple Hubzilla webapp based on the uPixelfed app (https://github.com/dark-eye
 ## Known issues
 - None ;)
 
+## Plans
+- [ ] Share links to Hubzilla
+- [ ] Share pictures to Hubzilla?
+- [ ] Account support (also for Hubzilla DAV cloud)
+
 ## Development
 
 This program is based on  the clickable environment further information on clickable avaialbe here : http://clickable.bhdouglass.com/en/latest/
