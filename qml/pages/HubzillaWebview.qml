@@ -157,6 +157,21 @@ Page {
 						Action {
 							iconName:"down"
 							onTriggered:instancBottomEdge.collapse()
+						},
+						Action {
+							text:i18n.tr("Add Post")
+							iconName:"edit"
+							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/rpost";
+						},			
+						Action {
+							text:i18n.tr("Messages")
+							iconName:"messages"
+							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/conversations";
+						},			
+						Action {
+							text:i18n.tr("Notifications")
+							iconName:"notification"
+							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/notifications";
 						}
 					]
 				}
