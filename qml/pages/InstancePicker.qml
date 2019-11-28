@@ -187,7 +187,7 @@ Page {
                         "country": list[i].countryName != null ? list[i].countryName : "",
                         "version": list[i].version != null ? list[i].version : "",
 						"users": list[i].stats.usersTotal != null ? list[i].stats.usersTotal : "",
-                        "iconSource":  list[i].thumbnail != null ? list[i].thumbnail : "../../assets/pixelfed_logo.svg",
+                        "iconSource":  list[i].thumbnail != null ? list[i].thumbnail : "../../assets/hubzilla_logo.svg",
 						"status":  list[i].openSignups != null ? list[i].openSignups : 0,
 						"rating":  list[i].score != null ? list[i].score : 0
                     })
