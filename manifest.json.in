@@ -9,7 +9,7 @@
             "desktop":  "hubzilla-web.desktop"
         }
     },
-    "version": "0.0.3",
+    "version": "0.0.4",
     "maintainer": "poVoq <kris@outmo.de>",
     "framework" : "ubuntu-sdk-16.04"
 }
