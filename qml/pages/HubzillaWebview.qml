@@ -159,32 +159,50 @@ Page {
 						Action {
 							text:i18n.tr("Calendar")
 							iconName:"calendar"
-							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/cdav/calendar";
+							onTriggered: {
+								webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/cdav/calendar"
+								instancBottomEdge.collapse()
+							}
 						},
 						Action {
 							text:i18n.tr("Connections")
 							iconName:"contact-group"
-							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/connections";
+							onTriggered: {
+								webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/connections"
+								instancBottomEdge.collapse()
+							}
 						},
 						Action {
 							text:i18n.tr("Add Post")
 							iconName:"edit"
-							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/rpost";
+							onTriggered: {
+								webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/rpost"
+								instancBottomEdge.collapse()
+							}
 						},
 						Action {
 							text:i18n.tr("Messages")
 							iconName:"messages"
-							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/mail/combined";
+							onTriggered: {
+								webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/mail/combined"
+								instancBottomEdge.collapse()
+							}
 						},
 						Action {
 							text:i18n.tr("Notifications")
 							iconName:"notification"
-							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/notifications";
+							onTriggered: {
+								webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/notifications"
+								instancBottomEdge.collapse()
+							}
 						},
 						Action {
 							text:i18n.tr("Stream")
 							iconName:"input-dialpad-symbolic"
-							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/network";
+							onTriggered: {
+								webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/network"
+								instancBottomEdge.collapse()
+							}
 						}
 					]
 				}
