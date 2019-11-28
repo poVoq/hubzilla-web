@@ -166,7 +166,7 @@ Page {
 						Action {
 							text:i18n.tr("Messages")
 							iconName:"messages"
-							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/conversations";
+							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/mail/combined";
 						},			
 						Action {
 							text:i18n.tr("Notifications")
