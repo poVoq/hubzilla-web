@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   viewBox="0 0 10.583334 10.583334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="hubzilla_logo.svg"
+   inkscape:export-filename="/home/kris/Dev/Ubtouch/Hubzilla/logo/logo_vektor_300.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="10.142727"
+     inkscape:cy="28.999763"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-286.41666)">
+    <g
+       id="g827"
+       transform="matrix(0.17062473,0,0,0.17062473,-1.5142145,248.25184)">
+      <path
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         id="path826"
+         d="m 8.9958334,247.66462 30.8050596,-18.42634 30.899554,18.52084 -8.220982,0.0945 -0.188989,32.60044 -44.884672,-0.0945 0.09449,-32.60044 z"
+         style="fill:#43488a;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <ellipse
+         ry="6.3783479"
+         rx="6.3311009"
+         cy="261.83871"
+         cx="29.406549"
+         id="path828"
+         style="fill:#ffffff;fill-opacity:0.94117647;stroke:none;stroke-width:0.29419136" />
+      <ellipse
+         ry="9.0241814"
+         rx="8.7879457"
+         cy="252.72011"
+         cx="47.45491"
+         id="path828-5"
+         style="fill:#f4f4f8;fill-opacity:1;stroke:none;stroke-width:0.41227201" />
+      <ellipse
+         ry="4.5829611"
+         rx="4.6302075"
+         cy="271.33539"
+         cx="43.580662"
+         id="path828-5-6"
+         style="fill:#f4f4f8;fill-opacity:1;stroke:none;stroke-width:0.2132601" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path871"
+         d="m 32.590687,258.83657 7.699767,-4.31065 0.681134,1.41544 -7.581311,4.37499 z"
+         style="fill:#f4f4f8;fill-opacity:1;stroke:none;stroke-width:0.34569183px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path873"
+         d="m 33.844614,263.80996 7.438133,5.22245 -0.829639,1.20749 -7.409523,-5.0715 z"
+         style="fill:#f4f4f8;fill-opacity:1;stroke:none;stroke-width:0.32913706px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path875"
+         d="m 43.108184,267.31939 2.117466,-6.61458 1.732472,0.35435 -2.27788,6.54371 z"
+         style="fill:#f4f4f8;fill-opacity:1;stroke:none;stroke-width:0.30833754px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
