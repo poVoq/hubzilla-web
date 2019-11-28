@@ -153,6 +153,8 @@ Page {
 				height:instancBottomEdge.height
 				width:instancBottomEdge.width
 				leadingActionBar {
+					numberOfSlots:6
+					visible:webviewPage.isOnMainSite()
 					actions:[
 						Action {
 							iconName:"down"
