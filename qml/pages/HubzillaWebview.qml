@@ -155,35 +155,36 @@ Page {
 				leadingActionBar {
 					numberOfSlots:6
 					visible:webviewPage.isOnMainSite()
-					actions:[
+					actions:[									
 						Action {
-							iconName:"down"
-							onTriggered:instancBottomEdge.collapse()
+							text:i18n.tr("Calendar")
+							iconName:"calendar"
+							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/cdav/calendar";
+						},
+						Action {
+							text:i18n.tr("Connections")
+							iconName:"contact-group"
+							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/connections";
 						},
 						Action {
 							text:i18n.tr("Add Post")
 							iconName:"edit"
 							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/rpost";
-						},			
+						},
 						Action {
 							text:i18n.tr("Messages")
 							iconName:"messages"
 							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/mail/combined";
-						},			
+						},
 						Action {
 							text:i18n.tr("Notifications")
 							iconName:"notification"
 							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/notifications";
-						},			
+						},
 						Action {
-							text:i18n.tr("Connections")
-							iconName:"contact-group"
-							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/connections";
-						},			
-						Action {
-							text:i18n.tr("Calendar")
-							iconName:"calendar"
-							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/cdav/calendar";
+							text:i18n.tr("Stream")
+							iconName:"input-dialpad-symbolic"
+							onTriggered:webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/network";
 						}
 					]
 				}
