@@ -19,6 +19,7 @@ Page {
 		infoModel.append({ name: i18n.tr("Report issues"), url: "https://github.com/povoq/hubzilla-web/issues",icon:"dialog-warning-symbolic" })
 		infoModel.append({ name: i18n.tr("GNU General Public License v3.0"), url: "https://github.com/povoq/hubzilla-web/blob/master/LICENSE",icon:"note" })
 		infoModel.append({ name: i18n.tr("Contributors"), url: "https://github.com/povoq/hubzilla-web/graphs/contributors" ,icon:"contact-group"})
+		infoModel.append({ name: i18n.tr("Donate to Hubzilla"), url: "https://zotlabs.org/donate" ,icon:"like", iconColor: UbuntuColors.red})
 	}
 
 	Column {
