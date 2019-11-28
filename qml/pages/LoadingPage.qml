@@ -52,7 +52,7 @@ Item {
 			color: theme.palette.normal.backgroundText
 			text: i18n.tr('Loading ') + appSettings.instance
 			anchors.centerIn: parent
-			textSize: Label.XLarge
+			textSize: Label.Large
 		}
 
 		ProgressBar {
