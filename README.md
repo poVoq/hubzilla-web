@@ -5,7 +5,7 @@ A simple Hubzilla webapp based on the uPixelfed app (https://github.com/dark-eye
 [![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/hubzilla-web.povoq)
 
 ## Known issues
-- None ;)
+- Device language is not recognized?
 
 ## Plans
 - [ ] Share links to Hubzilla
