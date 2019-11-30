@@ -12,6 +12,7 @@ A simple Hubzilla webapp based on the uPixelfed app (https://github.com/dark-eye
 - [ ] Share links to Hubzilla
 - [ ] Share pictures to Hubzilla (not sure if possible, use WebDAV otherwise)
 - [ ] UT Account support (also for Hubzilla DAV cloud)
+- [ ] Maybe some advanced functions through Zot API (notifications etc.)
 
 ## Development
 
