@@ -8,9 +8,10 @@ A simple Hubzilla webapp based on the uPixelfed app (https://github.com/dark-eye
 - Device language is not recognized?
 
 ## Plans
+- [ ] Make botton pannel quick links configurable (so that you can add wikis etc.)
 - [ ] Share links to Hubzilla
-- [ ] Share pictures to Hubzilla?
-- [ ] Account support (also for Hubzilla DAV cloud)
+- [ ] Share pictures to Hubzilla (not sure if possible, use WebDAV otherwise)
+- [ ] UT Account support (also for Hubzilla DAV cloud)
 
 ## Development
 
