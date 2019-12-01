@@ -7,13 +7,13 @@ import "../components"
 Page {
     id: instancePickerPage
     anchors.fill: parent
-    
+
     property bool searchRunning:false
     property var lastList: []
     property var updateTime: null
 
     Component.onCompleted: getSample ()
-	
+
 	WorkerScript {
 		id:asyncProcess
 		source:'../components/jslibs/FilterPods.js'
@@ -72,13 +72,13 @@ Page {
     function search ()  {
 
 		var searchTerm = customInstanceInput.displayText.toLowerCase();
-		//If  the  search starts with http(s) then go to the url 
-		if(searchTerm.indexOf("http") == 0 ) {
+		//If  the  search starts with https then go to the url
+		if(searchTerm.indexOf("https") == 0 ) {
 			appSettings.instance = searchTerm
 			mainStack.push (Qt.resolvedUrl("./HubzillaWebview.qml"))
 			return
 		}
-	
+
 		if(updateTime < Date.now()-60000) {
 			loading.visible = true
 			loadingError.visible = false;
@@ -162,7 +162,7 @@ Page {
         placeholderText: i18n.tr("Search or enter a custom address")
         Keys.onReturnPressed: search()
     }
-    
+
     ScrollView {
         id: scrollView
         width: parent.width
@@ -195,7 +195,7 @@ Page {
             }
         }
     }
-    
+
     Label {
 		id:noResultsLabel
 		visible: !instanceList.children.length && !loading.visible && !loadingError.visible
