@@ -223,7 +223,7 @@ Page {
 	}
 	
 	function isLoggedin() {
-		var loginPage = helperFunctions.getInstanceURL() + "/users/sign_in"
+		var loginPage = helperFunctions.getInstanceURL() + "/login"
 		return currentView().url != loginPage;
 	}
 
