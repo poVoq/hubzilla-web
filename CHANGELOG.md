@@ -1,7 +1,7 @@
 uHbzilla Changelog
 ================
 
-v0.0.6
+v0.0.6 (unreleased)
 ---------------------------
  * Only allow connecting to custom instances via https:// to work around bug
 
