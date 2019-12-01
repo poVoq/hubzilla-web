@@ -5,7 +5,7 @@ A simple Hubzilla webapp based on the uPixelfed app (https://github.com/dark-eye
 [![OpenStore](https://open-store.io/badges/en_US.png)](https://open-store.io/app/hubzilla-web.povoq)
 
 ## Known issues
-- Fails to load mobile view when connection via http://
+- Will only connect to custom instances via https:// (work-around)
 - Device language is not recognized?
 
 ## Plans
