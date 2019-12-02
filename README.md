@@ -6,6 +6,7 @@ A simple Hubzilla webapp based on the uPixelfed app (https://github.com/dark-eye
 
 ## Known issues
 - Will only connect to custom instances via https:// (work-around)
+- Long press modal to select and copy to clipboard is broken
 - Device language is not recognized?
 
 ## Plans
