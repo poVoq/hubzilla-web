@@ -4,6 +4,7 @@ uHbzilla Changelog
 v0.0.6 (unreleased)
 ---------------------------
  * Only allow connecting to custom instances via https:// to work around bug
+ * Change Mail to DM bottom edge quick link to reflect change in Hubzilla 5.x
 
  v0.0.5
 ---------------------------
