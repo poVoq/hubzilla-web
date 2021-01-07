@@ -184,7 +184,7 @@ Page {
 							text:i18n.tr("Messages")
 							iconName:"messages"
 							onTriggered: {
-								webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/mail/combined"
+								webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/network/?f=&dm=1"
 								instancBottomEdge.collapse()
 							}
 						},
