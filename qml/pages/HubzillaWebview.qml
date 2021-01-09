@@ -43,7 +43,7 @@ Page {
 					}
 					if ( i+1 < transfer.items.length ) message += "\n"
 				}
-				webView.url = (instance.indexOf("http") != -1 ? instance : "https://" + instance) + "/rpost?body=" + message
+				webviewPage.currentView().url = helperFunctions.getInstanceURL() +"/rpost?body=" + message
 			}
 		}
 	}
