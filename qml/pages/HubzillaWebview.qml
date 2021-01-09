@@ -20,11 +20,34 @@ Page {
 		visible: false
 	}
 	
+	ContentHubModel {
+		id: contentHubModel
+	}
+
 	Component {
 		id: pickerComponent
 		PickerDialog {}
 	}
 	
+	Connections {
+		target: ContentHub
+		onShareRequested: {
+			if ( transfer.contentType === ContentType.Links || transfer.contentType === ContentType.Text ) {
+				var message = "";
+				for ( var i = 0; i < transfer.items.length; i++ ) {
+					if (String(transfer.items[i].text).length > 0 && String(transfer.items[i].url).length == 0) {
+						message += String(transfer.items[i].text)
+					}
+					else if (String(transfer.items[i].url).length > 0 ) {
+						message += String(transfer.items[i].url)
+					}
+					if ( i+1 < transfer.items.length ) message += "\n"
+				}
+				webView.url = (instance.indexOf("http") != -1 ? instance : "https://" + instance) + "/rpost?body=" + message
+			}
+		}
+	}
+
 	Flickable {
 		id:webContainer
 		anchors {
