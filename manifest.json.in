@@ -6,7 +6,8 @@
     "hooks": {
         "hubzilla-web": {
             "apparmor": "hubzilla-web.apparmor",
-            "desktop":  "hubzilla-web.desktop"
+            "desktop":  "hubzilla-web.desktop",
+            "content-hub": "hubzilla-web.content-hub"
         }
     },
     "version": "0.0.6",
