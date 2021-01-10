@@ -9,13 +9,6 @@ A simple Hubzilla webapp based on the uPixelfed app (https://github.com/dark-eye
 - Long press modal to select and copy to clipboard is broken
 - Device language is not recognized?
 
-## Plans
-- [ ] Make botton pannel quick links configurable (so that you can add wikis etc.)
-- [ ] Share links to Hubzilla
-- [ ] Share pictures to Hubzilla (not sure if possible, use WebDAV otherwise)
-- [ ] UT Account support (also for Hubzilla DAV cloud)
-- [ ] Maybe some advanced functions through Zot API (notifications etc.)
-
 ## Development
 
 This program is based on  the clickable environment further information on clickable avaialbe here : http://clickable.bhdouglass.com/en/latest/
