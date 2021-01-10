@@ -5,6 +5,7 @@ v0.0.6 (unreleased)
 ---------------------------
  * Only allow connecting to custom instances via https:// to work around bug
  * Change Mail to DM bottom edge quick link to reflect change in Hubzilla 5.x
+ * Content hub text and link sharing now supported
 
  v0.0.5
 ---------------------------
